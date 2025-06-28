@@ -1,4 +1,4 @@
-# 🧱 n8n-on-Databricks (with optional Lakehouse PostgreSQL Support)
+# 🧱 n8n-on-Databricks (with optional LakeBase PostgreSQL Support)
 
 Self-host [n8n](https://n8n.io/) as a [Databricks App](https://docs.databricks.com/en/dev-tools/databricks-apps/index.html) — fully integrated inside your Lakehouse environment.
 
