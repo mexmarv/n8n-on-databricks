@@ -1,0 +1,13 @@
+{
+  "name": "n8n-with-databricks",
+  "version": "1.0.0",
+  "description": "n8n running on Databricks App with SQLite",
+  "scripts": {
+    "start": "n8n",
+    "install": "npm install sqlite3 n8n"
+  },
+  "dependencies": {
+    "n8n": "^1.45.1",
+    "sqlite3": "^5.1.6"
+  }
+}

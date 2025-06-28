@@ -1,0 +1,12 @@
+env:
+  - name: N8N_PORT
+    value: 8000
+  - name: N8N_HOST
+    value: 0.0.0.0
+  - name: N8N_DB_TYPE
+    value: sqlite
+  - name: DB_SQLITE_DATABASE
+    value: /app/data/database.sqlite
+  - name: N8N_ENCRYPTION_KEY
+    value: default_secret_key
+command: python node-js/jsrunner.py
