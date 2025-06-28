@@ -25,7 +25,7 @@ Self-host [n8n](https://n8n.io/) as a [Databricks App](https://docs.databricks.c
 
 ## ⚙️ What This App Does
 
-This Databricks App self-hosts `n8n` automation workflows inside your workspace. It was extended from the [original `databricks-n8n`](https://github.com/databricks/databricks-n8n) repo with several fixes and enhancements:
+This Databricks App self-hosts `n8n` automation workflows inside your workspace. It was extended from the [original `databricks-n8n`](https://github.com/hellomikelo/databricks-n8n) repo with several fixes and enhancements:
 
 ✅ Improvements:
 - Works on latest Node v22.x with SQLite v5.1+
