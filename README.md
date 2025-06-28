@@ -31,7 +31,7 @@ This Databricks App self-hosts `n8n` automation workflows inside your workspace.
 - Works on latest Node v22.x with SQLite v5.1+
 - ✅ Handles encryption key persistence and permissions inside Databricks Apps (`.n8n/config`)
 - ✅ Refactored directory (`node-js/`) for cleaner organization
-- ✅ Ready to switch to **Lakehouse PostgreSQL (Lakebase)** for persistent workflows and credentials
+- ✅ Ready to switch to **Lakehouse PostgreSQL (LakeBase)** for persistent workflows and credentials
 
 > 👨‍🔧 Built and extended by [mexmarv@gmail.com](mailto:mexmarv@gmail.com)
 
@@ -140,7 +140,7 @@ Make sure the following dependencies are installed:
 
 ## 👷 Acknowledgements
 
-- 🛠️ Based on [databricks-n8n](https://github.com/databricks/databricks-n8n) by Databricks
+- 🛠️ Based on [databricks-n8n](https://github.com/hellomikelo/databricks-n8n) by Databricks
 - 🧠 Improved and packaged by [mexmarv@gmail.com](mailto:mexmarv@gmail.com)
 - 💾 Built for real-world automation on Databricks
 
