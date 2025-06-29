@@ -1,12 +1,27 @@
+runtime:
+  name: nodejs
+  version: "22.2.0"
+
+command: ["python", "node-js/jsrunner.py"]
+
+files:
+  - node-js/jsrunner.py
+  - package.json
+
 env:
   - name: N8N_PORT
-    value: 8000
+    value: "8000"
   - name: N8N_HOST
-    value: 0.0.0.0
-  - name: N8N_DB_TYPE
+    value: "0.0.0.0"
+  - name: WEBHOOK_URL
+    value: "https://ENTERYOUR.databricksapps.com"
+  - name: VUE_APP_URL_BASE_API
+    value: "https://ENTERYOUR.databricksapps.com"
+  - name: DB_TYPE
     value: sqlite
   - name: DB_SQLITE_DATABASE
-    value: /app/data/database.sqlite
+    value: /home/app/.n8n/database.sqlite
   - name: N8N_ENCRYPTION_KEY
-    value: default_secret_key
-command: python node-js/jsrunner.py
+    value: "supersecurekey"
+  - name: N8N_ENFORCE_SETTINGS_FILE_PERMISSIONS
+    value: "false"
