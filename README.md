@@ -140,7 +140,7 @@ Make sure the following dependencies are installed:
 
 ## 👷 Acknowledgements
 
-- 🛠️ Based on [databricks-n8n](https://github.com/hellomikelo/databricks-n8n) by Databricks
+- 🛠️ Based on [databricks-n8n](https://github.com/hellomikelo/databricks-n8n) by hellomikelo
 - 🧠 Improved and packaged by [mexmarv@gmail.com](mailto:mexmarv@gmail.com)
 - 💾 Built for real-world automation on Databricks
 
