@@ -67,6 +67,32 @@ To check logs, click on the "Logs" tab in the app interface.
 
 n8n stores credentials and workflows in an encrypted database.
 
+### Databricks base URL vs 0.0.0.0:
+
+Once you have deployed and get your Databricks app URL, please paste over webhook URL, otherwise you will get errors in callbacks since 0.0.0.0 does not exist.
+
+```yaml
+# app.yaml
+
+env:
+  - name: N8N_PORT
+    value: "8000"
+  - name: N8N_HOST
+    value: "0.0.0.0"
+  - name: WEBHOOK_URL
+    value: "https://ENTERYOUR.databricksapps.com"
+  - name: VUE_APP_URL_BASE_API
+    value: "https://ENTERYOUR.databricksapps.com"
+  - name: DB_TYPE
+    value: sqlite
+  - name: DB_SQLITE_DATABASE
+    value: /home/app/.n8n/database.sqlite
+  - name: N8N_ENCRYPTION_KEY
+    value: "supersecurekey"
+  - name: N8N_ENFORCE_SETTINGS_FILE_PERMISSIONS
+    value: "false"
+```
+
 ### ✅ Option 1 — Default: SQLite
 
 By default, n8n will use `SQLite` for internal storage:
